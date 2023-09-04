@@ -24,7 +24,7 @@ people_inbus= int(input("how many people inside the bus"))
 people_outbus= int(input("how many people want to enter the bus"))
 empty_seats = bus_capacity - people_inbus
 if empty_seats > people_inbus :
-    print("the empty seats is"+ empty_seats)
+    print("the empty seats is", empty_seats)
 elif empty_seats <= people_outbus :
     print("the bus is full ")
 
